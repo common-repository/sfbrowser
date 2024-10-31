@@ -1,0 +1,192 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: wp-sfbrowser\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2010-11-21 13:43+0100\n"
+"PO-Revision-Date: 2010-12-11 11:30+0100\n"
+"Last-Translator: Ron Valstar <poedit@ronvalstar.nl>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-Language: English\n"
+"X-Poedit-Country: UNITED KINGDOM\n"
+"X-Poedit-SearchPath-0: ..\n"
+
+#: ../wp_sfbrowser.php:150
+msgid "SFBrowser Management"
+msgstr ""
+
+#: ../wp_sfbrowser.php:150
+msgid "SFBrowser"
+msgstr ""
+
+#: ../wp_sfbrowser.php:165
+msgid "Add "
+msgstr ""
+
+#: ../wp_sfbrowser.php:234
+msgid "SFBrowser options"
+msgstr ""
+
+#: ../wp_sfbrowser.php:236
+msgid "_SFBrowser explanation"
+msgstr "<p>SFBrowser is a file browser and uploader. It can be used as an alternative for the existing but annoying media library. But it can also quite easily be used to support other plugins and/or extensions.<br/>Unlike the existing media library SFBrowser does not automatically store references to files in the database. Plus it returns the relative paths to files (as opposed to the absolute paths used by the media library).</p><p>If you have any questions or request you can post them on the <a href=\"http://wordpress.org/extend/plugins/sfbrowser/\">Wordpress plugin page</a>. And don't forget to rate it.</p>"
+
+#: ../wp_sfbrowser.php:241
+msgid "Save changes"
+msgstr ""
+
+#: ../wp_sfbrowser.php:253
+msgid "Basic settings"
+msgstr ""
+
+#: ../wp_sfbrowser.php:254
+msgid "Use relative paths"
+msgstr ""
+
+#: ../wp_sfbrowser.php:255
+msgid "Upload directory"
+msgstr ""
+
+#: ../wp_sfbrowser.php:256
+msgid "Image directory"
+msgstr ""
+
+#: ../wp_sfbrowser.php:256
+#: ../wp_sfbrowser.php:257
+#: ../wp_sfbrowser.php:258
+#: ../wp_sfbrowser.php:259
+msgid "(relative to upload directory)"
+msgstr ""
+
+#: ../wp_sfbrowser.php:257
+msgid "Video directory"
+msgstr ""
+
+#: ../wp_sfbrowser.php:258
+msgid "Audio directory"
+msgstr ""
+
+#: ../wp_sfbrowser.php:259
+msgid "Media directory"
+msgstr ""
+
+#: ../wp_sfbrowser.php:261
+msgid "Override Wordpress elements"
+msgstr ""
+
+#: ../wp_sfbrowser.php:261
+msgid "_sfbrowser override explanation."
+msgstr "Individual Wordpress elements that use the existing media library can be overridden to use SFBrowser."
+
+#: ../wp_sfbrowser.php:262
+msgid "Media menu item"
+msgstr ""
+
+#: ../wp_sfbrowser.php:263
+msgid "TinyMCE Upload/Insert"
+msgstr ""
+
+#: ../wp_sfbrowser.php:264
+msgid "image"
+msgstr ""
+
+#: ../wp_sfbrowser.php:265
+msgid "video"
+msgstr ""
+
+#: ../wp_sfbrowser.php:266
+msgid "audio"
+msgstr ""
+
+#: ../wp_sfbrowser.php:267
+msgid "media"
+msgstr ""
+
+#: ../wp_sfbrowser.php:269
+msgid "Insertion rules"
+msgstr ""
+
+#: ../wp_sfbrowser.php:269
+msgid "_insertion rules explanation."
+msgstr "<p>These are rules that define the way certain file types are inserted into your editor. The first field should be a comma separated list of file extensions. The second field is the rule for a single file. The third is an optional field for a list of files (if left blank the single rule is used). There are several variables you can use in your rule:</p><ul class=\"nolist\"><li>%file: uri to the file</li><li>%mime: file extension</li><li>%rsize: size in bytes</li><li>%size: size in appropiate format (kB, MB, GB etc...)</li><li>%time: time in milliseconds from Unix epoch</li><li>%date: formatted date/time</li><li>%width: width if present</li><li>%height: height if present</li></ul><p>For instance rule for an image will look like this <span class=\"wpsfbrule\">&lt;img src=\"%file\" alt=\"%name\" /&gt;</span>. The third rule can be made up of three parts delimited by pipes: a beginning, a middle that is iterated over the number of files, and an end. If it consists only of two parts there will be no end, if only one part is present it will be considered the iterative part (i.e. similar to the single file rule). For example an unordered list: <span class=\"wpsfbrule\">&lt;ul&gt;|&lt;li&gt;&lt;a href=\"%file\"&gt;%name&lt;/a&gt;&lt;/li&gt;|&lt;/ul&gt;</span>.</p>"
+
+#: ../wp_sfbrowser.php:272
+msgid "SFBrowser settings"
+msgstr ""
+
+#: ../wp_sfbrowser.php:272
+msgid "_sfbrowser settings explanation."
+msgstr "SFBrowser comes with a great number of native settings. These are only a few, more will be added in future releases."
+
+#: ../wp_sfbrowser.php:273
+msgid "Plugins"
+msgstr ""
+
+#: ../wp_sfbrowser.php:278
+msgid "Resize images"
+msgstr ""
+
+#: ../wp_sfbrowser.php:278
+msgid "_resizeExplain"
+msgstr "(works only for tinymce image, otherwise use the imageresize plugin)"
+
+#: ../wp_sfbrowser.php:279
+msgid "Save cookie"
+msgstr ""
+
+#: ../wp_sfbrowser.php:279
+msgid "_cookieExplain"
+msgstr "(cookie saves size and position of SFBrowser)"
+
+#: ../wp_sfbrowser.php:280
+msgid "Directory creation"
+msgstr ""
+
+#: ../wp_sfbrowser.php:280
+msgid "_dirsExplain"
+msgstr "(allows creation, renaming and deletion of directories)"
+
+#: ../wp_sfbrowser.php:281
+msgid "Swf upload"
+msgstr ""
+
+#: ../wp_sfbrowser.php:281
+msgid "_swfUploadExplain"
+msgstr "(uses Flash for upload so you can upload multiple files simultaniously)"
+
+#: ../wp_sfbrowser.php:282
+msgid "Debug mode"
+msgstr ""
+
+#: ../wp_sfbrowser.php:282
+msgid "_debugExplain"
+msgstr "(debug mode allows writing to log files (if writable), window console log and Flash traces)"
+
+#: ../wp_sfbrowser.php:351
+msgid "Remove rule"
+msgstr ""
+
+#: ../wp_sfbrowser.php:355
+msgid "Extensions"
+msgstr ""
+
+#: ../wp_sfbrowser.php:355
+msgid "Rule for single file"
+msgstr ""
+
+#: ../wp_sfbrowser.php:355
+msgid "Rule for list of files"
+msgstr ""
+
+#: ../wp_sfbrowser.php:382
+msgid "Add new rule"
+msgstr ""
+
+#: ../wp_sfbrowser.php:399
+msgid "Settings"
+msgstr ""
+

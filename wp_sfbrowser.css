@@ -1,0 +1,30 @@
+#toplevel_page_sfbrowser_media .wp-menu-image {
+	background-image: url(SFBmenu.png);
+	background-position: -2px -32px;
+}
+#toplevel_page_sfbrowser_media:hover .wp-menu-image {
+	background-position: -2px 0px;
+}
+#toplevel_page_sfbrowser_media .wp-menu-image {
+	background-image: url(SFBmenu.png);
+}
+.wp-sfb-settings #icon-options-general {
+	background: url(SFBrowserIcon.png) no-repeat;
+	width:38px;
+}
+.wpsfbrule {
+	border:1px solid #DFDFDF;
+	color:#000;
+	background:#FFF;
+	padding:3px 8px;
+}
+ul.nolist {
+	list-style:none;
+	padding:0;
+	margin:0;
+}
+ul.nolist>li {
+	display:inline;
+	padding:0 20px 0 0;
+	margin:0;
+}

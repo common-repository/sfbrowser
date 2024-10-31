@@ -1,0 +1,199 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: wp-sfbrowser\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2010-11-21 13:42+0100\n"
+"PO-Revision-Date: 2010-12-13 21:44+0100\n"
+"Last-Translator: Ron Valstar <poedit@ronvalstar.nl>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-Language: Dutch\n"
+"X-Poedit-Country: NETHERLANDS\n"
+"X-Poedit-SearchPath-0: ..\n"
+
+#: ../wp_sfbrowser.php:150
+msgid "SFBrowser Management"
+msgstr ""
+
+#: ../wp_sfbrowser.php:150
+msgid "SFBrowser"
+msgstr ""
+
+#: ../wp_sfbrowser.php:165
+msgid "Add "
+msgstr ""
+
+#: ../wp_sfbrowser.php:234
+msgid "SFBrowser options"
+msgstr "SFBrowser opties"
+
+#: ../wp_sfbrowser.php:236
+msgid "_SFBrowser explanation"
+msgstr "<p>SFBrowser is een bestandsbeheer module. Het kan gebruikt worden als alternatief op de bestaande (irritante) media bibliotheek. Daarnaast kan het gebruikt worden ter ondersteuning van plugins en/of extensies.<br/>In tegenstelling tot de bestaande media bibliotheek slaat SFBrowser niet automatisch op in de database, dat is makkelijker werken met bestanden die je via FTP upload. Daarnaast geeft het relatieve paden naar bestanden (media bibliotheek gebruikt absollute paden).</p><p>Als je vragen of ideeen hebt kat je ze op de <a href=\"http://wordpress.org/extend/plugins/sfbrowser/\">Wordpress plugin pagina</a> posten. En vergeet niet om te <img src=\"../wp-content/plugins/sfbrowser/rate.png\"/>.</p>"
+
+#: ../wp_sfbrowser.php:241
+msgid "Save changes"
+msgstr "Bewaar veranderingen"
+
+#: ../wp_sfbrowser.php:253
+msgid "Basic settings"
+msgstr "Basis instellingen"
+
+#: ../wp_sfbrowser.php:254
+msgid "Use relative paths"
+msgstr "Gebruik relatieve paden"
+
+#: ../wp_sfbrowser.php:255
+msgid "Upload directory"
+msgstr ""
+
+#: ../wp_sfbrowser.php:256
+msgid "Image directory"
+msgstr "Afbeeldingen directory"
+
+#: ../wp_sfbrowser.php:256
+#: ../wp_sfbrowser.php:257
+#: ../wp_sfbrowser.php:258
+#: ../wp_sfbrowser.php:259
+msgid "(relative to upload directory)"
+msgstr "(relatief tov upload directory)"
+
+#: ../wp_sfbrowser.php:257
+msgid "Video directory"
+msgstr ""
+
+#: ../wp_sfbrowser.php:258
+msgid "Audio directory"
+msgstr ""
+
+#: ../wp_sfbrowser.php:259
+msgid "Media directory"
+msgstr ""
+
+#: ../wp_sfbrowser.php:261
+msgid "Override Wordpress elements"
+msgstr "Overschrijvingen van Wordpress elementen"
+
+#: ../wp_sfbrowser.php:261
+msgid "_sfbrowser override explanation."
+msgstr "Individuele Worpress elementen die de bestaande media bibliotheek gebruiken kunnen worden overschreven om SFBrowser te gebruiken."
+
+#: ../wp_sfbrowser.php:262
+msgid "Media menu item"
+msgstr ""
+
+#: ../wp_sfbrowser.php:263
+msgid "TinyMCE Upload/Insert"
+msgstr "TinyMCE Uploaden/Toevoegen"
+
+#: ../wp_sfbrowser.php:264
+msgid "image"
+msgstr "afbeelding"
+
+#: ../wp_sfbrowser.php:265
+msgid "video"
+msgstr ""
+
+#: ../wp_sfbrowser.php:266
+msgid "audio"
+msgstr ""
+
+#: ../wp_sfbrowser.php:267
+msgid "media"
+msgstr ""
+
+#: ../wp_sfbrowser.php:269
+msgid "Insertion rules"
+msgstr "Invoeg regels"
+
+#: ../wp_sfbrowser.php:269
+msgid "_insertion rules explanation."
+msgstr "<p>Deze regels bepalen hoe een bestand in de html wordt ingevoegd. Het eerste veld bevat een komma gescheiden lijst met bestands extensies waar de regel op toegepast moet worden. Het tweede veld is de regel voor één bestand. Het derde is een optioneel veld voor een lijst bestanden (als het leeg is wordt de regel voor één bestand gevolgd). Er zijn een aantal variabelen die je in de regel gebruiken kan:</p><ul class=\"nolist\"><li>%file: uri naar het bestand</li><li>%mime: extensie</li><li>%rsize: grootte in bytes</li><li>%size: grootte in logisch formaat (kB, MB, GB etc...)</li><li>%time: tijd in milliseconden sinds Unix epoch</li><li>%date: opgemaakte datum/tijd</li><li>%width: breedte indien aanwezig</li><li>%height: hoogte indien aanwezig</li></ul><p>Bijvoorbeeld, de regel voor één afbeelding kan er zo uit zien: <span class=\"wpsfbrule\">&lt;img src=\"%file\" alt=\"%name\" /&gt;</span>. De regel voor meerdere bestanden kan bestaan uit drie pipe-gescheiden delen: een begin, een midden (geitereerd over de lijst), en een einde. Als de regel uit twee delen bestaat is er geen eind, als de regel uit één deel bestaan wordt het als het iteratieve deel gebruikt (dus gelijk aan de één bestands regel). Een voorbeeld van een ongeordende lijst: <span class=\"wpsfbrule\">&lt;ul&gt;|&lt;li&gt;&lt;a href=\"%file\"&gt;%name&lt;/a&gt;&lt;/li&gt;|&lt;/ul&gt;</span>.</p>"
+
+#: ../wp_sfbrowser.php:272
+msgid "SFBrowser settings"
+msgstr "SFBrowser instellingen"
+
+#: ../wp_sfbrowser.php:272
+msgid "_sfbrowser settings explanation."
+msgstr "SFBrowser heeft zelf een hoop instellingen. Nu zijn er maar enkele gebruikt voor Worpress. In de toekomst worden er meer toegevoegd."
+
+#: ../wp_sfbrowser.php:273
+msgid "Plugins"
+msgstr ""
+
+#: ../wp_sfbrowser.php:278
+msgid "Resize images"
+msgstr "Verschaal afbeeldingen"
+
+#: ../wp_sfbrowser.php:278
+msgid "_resizeExplain"
+msgstr "(werkt alleen voor tinyMCE afbeelding, gebruik anders de imageresize plugin)"
+
+#: ../wp_sfbrowser.php:279
+msgid "Save cookie"
+msgstr "Bewaar koekje"
+
+#: ../wp_sfbrowser.php:279
+msgid "_cookieExplain"
+msgstr "(een koekje bewaart de afmeting en positie van SFBrowser)"
+
+#: ../wp_sfbrowser.php:280
+msgid "Directory creation"
+msgstr "Folders aanmaken"
+
+#: ../wp_sfbrowser.php:280
+msgid "_dirsExplain"
+msgstr "(geeft de mogelijkheid tot aanmaken en wijzigen van folders)"
+
+#: ../wp_sfbrowser.php:281
+msgid "Swf upload"
+msgstr ""
+
+#: ../wp_sfbrowser.php:281
+msgid "_swfUploadExplain"
+msgstr "(gebruikt Flash voor het uploaden zodat meerdere bestanden tegelijkertijd kunnen worden upgeload)"
+
+#: ../wp_sfbrowser.php:282
+msgid "Debug mode"
+msgstr "Debug modus"
+
+#: ../wp_sfbrowser.php:282
+msgid "_debugExplain"
+msgstr "(debug modus schrijft naar log files (mits chmod goed staat), window console log en Flash traces)"
+
+#: ../wp_sfbrowser.php:351
+msgid "Remove rule"
+msgstr "Verwijder regel"
+
+#: ../wp_sfbrowser.php:355
+msgid "Extensions"
+msgstr "Extensies"
+
+#: ../wp_sfbrowser.php:355
+msgid "Rule for single file"
+msgstr "Regel voor één bestand"
+
+#: ../wp_sfbrowser.php:355
+msgid "Rule for list of files"
+msgstr "Regel voor lijst bestanden"
+
+#: ../wp_sfbrowser.php:382
+msgid "Add new rule"
+msgstr "Voeg nieuwe regel toe"
+
+#: ../wp_sfbrowser.php:399
+msgid "Settings"
+msgstr "Instellingen"
+
+#~ msgid "(works only for tinymce image, otherwise use the imageresize plugin)"
+#~ msgstr ""
+#~ "(werkt alleen voor tinyMCE afbeelding, gebruik anders de imageresize "
+#~ "plugin)"
+
+#~ msgid "(allows for the user to create and edit directories)"
+#~ msgstr "(geeft de mogelijkheid tot aanmaken en wijzigen van folders)"
